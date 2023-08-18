@@ -111,16 +111,12 @@ body{
   
 }
 
-.collapse p{
-  /* display: inline-flex;
-  width: 20px; */
-  /* background-color: #5C469C; */
-  background-color: #5C469C;
-  margin: 0%;
+.nav-link :hover{
   padding: 0;
-  border-radius: 21px;
-  
+  color: black;
 }
+
+
 
 .nav-item .link1 p{
   margin: auto;
@@ -135,9 +131,9 @@ body{
 
 
 .collapse{
-  display: block;
-  height: 24px;
-  width: 75px;
+  /* display: block; */
+  /* height: 24px;
+  width: 75px; */
   border-radius: 25px;
   overflow: hidden;
   background-color: #5C469C;
@@ -147,3 +143,5 @@ body{
 .navlink .navitem{
   background-color: transparent;
 }
+
+
