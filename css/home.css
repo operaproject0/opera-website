@@ -1,0 +1,54 @@
+p{
+  color: white;
+  background-color: transparent;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+hr{
+    width: 75%;
+    color: white;
+    background-color: white;
+    border-width: 2px;
+    border-radius: 75px;
+}
+
+.d-block{
+  width: 60%;
+  height: auto;
+  /*  */
+  /* height: 50px; */
+  
+  margin: auto;
+}
+
+.carousel-control-prev {
+  left: 10%;
+}
+
+.carousel-control-next {
+  right: 10%;
+}
+
+.carousel-indicators {
+  /* bottom: -23px; */
+  background-color: transparent;
+}
+
+.box{
+  background-color: #4F3B78;
+  
+  border: 2px solid;
+  width: 85%;
+  height: auto;
+  margin: auto;
+  padding: 25px;
+  border-radius: 25px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+
+
