@@ -71,7 +71,6 @@ body{
 }
 
 .navbar{
-  height: 37px;
   float: center;
   /* position: sticky; */
   padding: 0;
@@ -79,7 +78,7 @@ body{
   /* padding-top: 2px; */
   /* border: 2px solid red; */
   display: flex;
-  border-radius: 21px;
+  border-radius: 35px;
   /* background: transparent; */
   justify-content: center;
   align-items: center;
@@ -90,9 +89,6 @@ body{
 
 .navbar-nav{
   margin: auto;
-  /* height: 32px; */
-  /* background-color: #5C469C; */
-  /* width: 78px; */
   
 }
 
@@ -114,26 +110,22 @@ body{
   color: black;
 }
 
-
+.nav-item .nav-link p{
+  padding: 10px;
+}
 
 .nav-item .link1 p{
   margin: auto;
   vertical-align: middle;
-  padding: 0px;
-  padding-left: 10px;
-  padding-right: 10px;
   color: black;
   background-color: #FFFFFF;
-  border-radius: 25px;
+  border-radius: 35px;
 }
 
 
 
 .collapse{
-  /* display: block; */
-  /* height: 24px;
-  width: 75px; */
-  border-radius: 25px;
+  border-radius: 35px;
   overflow: hidden;
   background-color: #5C469C;
   
@@ -154,5 +146,4 @@ body{
 
 .collapse.scrolled{
   border-radius: 0px;
-  width: 100;
 }
