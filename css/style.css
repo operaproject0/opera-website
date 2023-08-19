@@ -71,6 +71,7 @@ body{
 }
 
 .navbar{
+  height: 37px;
   float: center;
   /* position: sticky; */
   padding: 0;
@@ -100,15 +101,12 @@ body{
   background-color: #5C469C;
   padding: 0px 70px; 
   width: auto;  
-  height: 26px;
   
-  /* margin: 0; */
 }
 
 .nav-link{
   padding: 0;
-  
-  
+  padding-top: 10px;
 }
 
 .nav-link :hover{
@@ -120,9 +118,10 @@ body{
 
 .nav-item .link1 p{
   margin: auto;
+  vertical-align: middle;
+  padding: 0px;
   padding-left: 10px;
   padding-right: 10px;
-  /* padding-top: 5px; */
   color: black;
   background-color: #FFFFFF;
   border-radius: 25px;
@@ -144,4 +143,16 @@ body{
   background-color: transparent;
 }
 
+.nav-scroll{
+  transition: background-color 0.1s ease-in;
+}
 
+.nav-scroll.scrolled{
+  width: 100%;
+  
+}
+
+.collapse.scrolled{
+  border-radius: 0px;
+  width: 100;
+}
