@@ -78,7 +78,7 @@ body{
   /* padding-top: 2px; */
   /* border: 2px solid red; */
   display: flex;
-  border-radius: 21px;
+  border-radius: 35px;
   /* background: transparent; */
   justify-content: center;
   align-items: center;
@@ -89,9 +89,6 @@ body{
 
 .navbar-nav{
   margin: auto;
-  /* height: 32px; */
-  /* background-color: #5C469C; */
-  /* width: 78px; */
   
 }
 
@@ -100,15 +97,12 @@ body{
   background-color: #5C469C;
   padding: 0px 70px; 
   width: auto;  
-  height: 26px;
   
-  /* margin: 0; */
 }
 
 .nav-link{
   padding: 0;
-  
-  
+  padding-top: 12px;
 }
 
 .nav-link :hover{
@@ -116,25 +110,22 @@ body{
   color: black;
 }
 
-
+.nav-item .nav-link p{
+  padding: 5px;
+}
 
 .nav-item .link1 p{
   margin: auto;
-  padding-left: 10px;
-  padding-right: 10px;
-  /* padding-top: 5px; */
+  vertical-align: middle;
   color: black;
   background-color: #FFFFFF;
-  border-radius: 25px;
+  border-radius: 35px;
 }
 
 
 
 .collapse{
-  /* display: block; */
-  /* height: 24px;
-  width: 75px; */
-  border-radius: 25px;
+  border-radius: 35px;
   overflow: hidden;
   background-color: #5C469C;
   
@@ -144,4 +135,15 @@ body{
   background-color: transparent;
 }
 
+.nav-scroll{
+  transition: background-color 0.1s ease-in;
+}
 
+.nav-scroll.scrolled{
+  width: 100%;
+  
+}
+
+.collapse.scrolled{
+  border-radius: 0px;
+}
