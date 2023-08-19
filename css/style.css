@@ -102,7 +102,7 @@ body{
 
 .nav-link{
   padding: 0;
-  padding-top: 10px;
+  padding-top: 12px;
 }
 
 .nav-link :hover{
@@ -111,7 +111,7 @@ body{
 }
 
 .nav-item .nav-link p{
-  padding: 10px;
+  padding: 5px;
 }
 
 .nav-item .link1 p{
