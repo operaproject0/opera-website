@@ -27,7 +27,7 @@
 
   <br>
 <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top nav-scroll">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -133,4 +133,22 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+<script>
+  document.addEventListener("scroll",()=>{
+    const header = document.querySelector('.nav-scroll');
+    if(window.scrollY > 135){
+      header.classList.add('scrolled');
+    } else{
+      header.classList.remove('scrolled');
+    }
+  })
+  document.addEventListener("scroll",()=>{
+    const header = document.querySelector('.collapse');
+    if(window.scrollY > 135){
+      header.classList.add('scrolled');
+    } else{
+      header.classList.remove('scrolled');
+    }
+  })
+</script>
 </html>
