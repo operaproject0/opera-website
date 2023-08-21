@@ -1,5 +1,5 @@
 *{
-  background-color: #D8D0D0;
+  background-color: #F1ECEC;
 }
 
 p{
@@ -11,7 +11,7 @@ p{
 
 body{
   scroll-behavior: smooth;
-  background-color: #D8D0D0;
+  background-color: #F1ECEC;
 }
 
 /* Header start */
@@ -31,7 +31,7 @@ body{
   width: 110px;
   padding-top: 20px;
   padding-right: 40px;
-  background-color: #D8D0D0;
+  background-color: #F1ECEC;
   float: left;
   /* border-radius: 50%; */
   margin-right: 20px;
@@ -43,6 +43,8 @@ body{
   background-color: #1E1E1E;
   color: white;
   padding: 8px 0;
+  overflow: hidden;
+
 }
 
 .footer-content {
@@ -51,29 +53,19 @@ body{
   align-items: center;
   max-width: 1250px;
   margin: auto;
+  background-color: transparent;
+  
+}
+
+.gif{
+  width: 5%;
+  
+  
 }
 /* Footer over */
 
-/* Carousel start */
-.left-section, .right-section {
-  background-color: #1E1E1E;
-  flex: 1;
-}
-
-.left-section {
-  text-align: left;
-  padding-left: 0px;
-}
-
-.right-section {
-  text-align: right;
-  padding-right: 0px;
-}
-/* Carousel over */
 
 /* Navbar start  */
-
-
 
 .nav-link a{
   margin: 0;
@@ -102,7 +94,7 @@ body{
 
 
 .navtxt{
-  color: #4E3927;
+  color: #FFFFFF;
   
 }
 
@@ -127,7 +119,7 @@ body{
 
 .nav-link :hover{
   padding: 0;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 .nav-item .nav-link p{
@@ -168,6 +160,8 @@ body{
 } 
 
 /* navbar over  */
+
+
 @media only screen and (max-width: 1400px) {
   .navbar-nav li {
     padding: 0px 40px;
@@ -182,10 +176,11 @@ body{
   /* display: flex; */
   border-radius: 35px;
   /* background: transparent; */
-  /* justify-content: center; */
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   width: 100%;
   
   
 }
 }
+
