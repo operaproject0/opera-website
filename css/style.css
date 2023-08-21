@@ -1,18 +1,25 @@
 *{
-  background-color: #35155D;
+  background-color: #D8D0D0;
 }
 
+p{
+  color: #413F3D;
+  background-color: transparent;
+  text-align: justify;
+  text-justify: inter-word;
+}
 
 body{
   scroll-behavior: smooth;
-  background-color: #35155D;
+  background-color: #D8D0D0;
 }
 
+/* Header start */
 .second{
   text-align: center;
 }
 .header{
-  color: white;
+  color: #4E3927;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -24,14 +31,14 @@ body{
   width: 110px;
   padding-top: 20px;
   padding-right: 40px;
-  background-color: #35155D;
+  background-color: #D8D0D0;
   float: left;
   /* border-radius: 50%; */
   margin-right: 20px;
 }
+/* Header over */
 
-
-
+/* Footer start */
 .footer {
   background-color: #1E1E1E;
   color: white;
@@ -45,7 +52,9 @@ body{
   max-width: 1250px;
   margin: auto;
 }
+/* Footer over */
 
+/* Carousel start */
 .left-section, .right-section {
   background-color: #1E1E1E;
   flex: 1;
@@ -60,20 +69,23 @@ body{
   text-align: right;
   padding-right: 0px;
 }
+/* Carousel over */
+
+/* Navbar start  */
 
 
 
 .nav-link a{
   margin: 0;
   color: white;
-  background-color: #5C469C;
+  
   
 }
 
 .navbar{
   float: center;
   /* position: sticky; */
-  padding: 0;
+  padding: 0px ;
   margin: auto;
   /* padding-top: 2px; */
   /* border: 2px solid red; */
@@ -87,14 +99,22 @@ body{
   
 }
 
-.navbar-nav{
-  margin: auto;
+
+
+.navtxt{
+  color: #4E3927;
   
 }
 
+.navbar-nav{
+  margin: auto;
+  height: 34px;
+}
+
+
 
 .navbar-nav li{
-  background-color: #5C469C;
+  background-color: #B1A6A4;
   padding: 0px 70px; 
   width: auto;  
   
@@ -102,16 +122,17 @@ body{
 
 .nav-link{
   padding: 0;
-  padding-top: 12px;
+  padding-top: 0px;
 }
 
 .nav-link :hover{
   padding: 0;
-  color: black;
+  color: #FFFFFF;
 }
 
 .nav-item .nav-link p{
   padding: 5px;
+  max-width: 1500px;
 }
 
 .nav-item .link1 p{
@@ -126,18 +147,16 @@ body{
 
 .collapse{
   border-radius: 35px;
-  overflow: hidden;
-  background-color: #5C469C;
+  /* overflow: hidden; */
+  background-color: #B1A6A4;
   
 }
 
-.navlink .navitem{
-  background-color: transparent;
-}
 
-.nav-scroll{
+
+/* .nav-scroll{
   transition: background-color 0.1s ease-in;
-}
+} */
 
 .nav-scroll.scrolled{
   width: 100%;
@@ -147,3 +166,26 @@ body{
 .collapse.scrolled{
   border-radius: 0px;
 } 
+
+/* navbar over  */
+@media only screen and (max-width: 1400px) {
+  .navbar-nav li {
+    padding: 0px 40px;
+  }
+  .navbar{
+  float: center;
+  /* position: sticky; */
+  padding: 0px ;
+  /* margin: auto; */
+  /* padding-top: 2px; */
+  /* border: 2px solid red; */
+  /* display: flex; */
+  border-radius: 35px;
+  /* background: transparent; */
+  /* justify-content: center; */
+  align-items: center;
+  width: 100%;
+  
+  
+}
+}

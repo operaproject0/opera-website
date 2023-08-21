@@ -1,9 +1,4 @@
-p{
-  color: white;
-  background-color: transparent;
-  text-align: justify;
-  text-justify: inter-word;
-}
+
 
 hr{
     width: 75%;
@@ -36,9 +31,9 @@ hr{
 }
 
 .box{
-  background-color: #4F3B78;
+  background-color: #B1A6A4;
   
-  border: 2px solid;
+  /* border: 2px solid; */
   width: 85%;
   height: auto;
   margin: auto;
