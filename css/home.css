@@ -1,13 +1,14 @@
 
-
+/* for the line */
 hr{
     width: 75%;
-    color: white;
-    background-color: white;
+    color: black;
+    background-color: black;
     border-width: 2px;
     border-radius: 75px;
 }
 
+/* for the carousel */
 .d-block{
   width: 60%;
   height: auto;
@@ -19,6 +20,13 @@ hr{
 
 .carousel-control-prev {
   left: 10%;
+  
+}
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators {
+    filter: invert(100%);
 }
 
 .carousel-control-next {
@@ -29,6 +37,8 @@ hr{
   /* bottom: -23px; */
   background-color: transparent;
 }
+/* carousel over*/
+
 
 .box{
   background-color: #B1A6A4;
@@ -42,23 +52,6 @@ hr{
   position: relative;
   overflow: hidden;
 }
-
-/* Carousel start */
-.left-section, .right-section {
-  background-color: #1E1E1E;
-  flex: 1;
-}
-
-.left-section {
-  text-align: left;
-  padding-left: 0px;
-}
-
-.right-section {
-  text-align: right;
-  padding-right: 0px;
-}
-/* Carousel over */
 
 
 
