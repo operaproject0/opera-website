@@ -1,18 +1,19 @@
 hr{
-    width: 90%;
-    color: black;
-    background-color: black;
+    width: 75%;
+    background-color: rgb(133, 79, 9);
+    
     border-width: 2px;
     border-radius: 75px;
 }
 
-h2{
+.client-title{
+    color: rgb(133, 79, 9);
     text-align: center;
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
-    
-    color: black;
 }
+
+
 
 .img-client{
     display: block;
