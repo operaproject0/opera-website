@@ -6,9 +6,67 @@ hr{
     border-radius: 75px;
 }
 
+/* Content  */
 #content-heading{
     color: rgb(133, 79, 9);
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     
+}
+
+#main-content{
+    width: 75%;
+    /* height: 200px; */
+    border: 2px solid red;
+    margin-left:2%;
+    padding: 10px;
+}
+
+.content-box{
+    display: flex;
+    flex-direction: column;
+    border-radius: 18px;
+    border: 2px solid red;
+    margin-left:2%;
+    margin-bottom:2%;
+    padding: 10px;
+}
+
+.content-box div{
+    display: flex;
+}
+
+#main-content div p{
+    margin: 0px 10px;
+}
+
+/* content image  */
+#main-content div img{
+    width: 10rem; 
+    height: 10rem;
+    border-radius: 28%;
+}
+
+
+
+/* Side navigation panel  */
+#side-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 20%;
+    border: 2px solid black;
+    position: fixed;
+    top: 294px;
+    right: 1%;
+    /* left: 10px; */
+}
+
+#side-nav div{
+    text-align: center;
+    width: 70%;
+    margin: 4px 0px;
+    border: 2px solid red;
 }

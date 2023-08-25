@@ -8,7 +8,9 @@ p{
   text-align: justify;
   text-justify: inter-word;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body{
   scroll-behavior: smooth;
   background-color: #F1ECEC;
