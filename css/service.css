@@ -15,7 +15,7 @@ hr{
 }
 
 #main-content{
-    width: 75%;
+    width: 80%;
     /* height: 200px; */
     margin-left:2%;
     padding: 10px;
@@ -60,7 +60,7 @@ hr{
     justify-content: center;
     align-items: center;
     height: 200px;
-    width: 20%;
+    width: 15%;
     background-color:#B1A6A4;
     border-radius: 25px;
     position: fixed;
@@ -79,7 +79,23 @@ hr{
 #side-nav div a{
     color: #ffffff;
     text-decoration: none;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 35px;
 }
 #side-nav div a:hover{
     color: #000000;
 }
+
+/* #side-nav div a.clicked{
+    background-color: white;
+    color: #000000;
+} */
+
+
+#side-nav div a.active{
+    background-color:#ffffff;
+    color: #000000;
+}
+ 
