@@ -17,7 +17,6 @@ hr{
 #main-content{
     width: 75%;
     /* height: 200px; */
-    border: 2px solid red;
     margin-left:2%;
     padding: 10px;
 }
@@ -26,7 +25,7 @@ hr{
     display: flex;
     flex-direction: column;
     border-radius: 18px;
-    border: 2px solid red;
+    background-color: #B1A6A4;
     margin-left:2%;
     margin-bottom:2%;
     padding: 10px;
@@ -34,10 +33,15 @@ hr{
 
 .content-box div{
     display: flex;
+    background-color: #B1A6A4;
 }
 
 #main-content div p{
     margin: 0px 10px;
+}
+
+.content-box h1{
+    background-color: #B1A6A4;
 }
 
 /* content image  */
@@ -57,7 +61,8 @@ hr{
     align-items: center;
     height: 200px;
     width: 20%;
-    border: 2px solid black;
+    background-color:#B1A6A4;
+    border-radius: 25px;
     position: fixed;
     top: 294px;
     right: 1%;
@@ -68,5 +73,13 @@ hr{
     text-align: center;
     width: 70%;
     margin: 4px 0px;
-    border: 2px solid red;
+    background-color: #B1A6A4;
+}
+
+#side-nav div a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#side-nav div a:hover{
+    color: #000000;
 }

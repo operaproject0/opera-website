@@ -10,6 +10,7 @@ p{
 }
 html{
   scroll-behavior: smooth;
+  scroll-padding: 40px;
 }
 body{
   scroll-behavior: smooth;
