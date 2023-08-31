@@ -11,3 +11,109 @@ hr{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
+
+.box{
+    background-color: #B1A6A4;
+    
+    /* border: 2px solid; */
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 25px;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  h5{
+    background-color: transparent;
+    text-align: center;
+  }
+
+  
+
+  .gmap_canvas{
+    border-radius: 30px;
+    margin-left: 100px;
+  }
+
+.form-box{
+    background-color: #B1A6A4;
+    
+    /* border: 2px solid; */
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 25px;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+form {
+  width: 90%;
+  margin: 0 auto;
+  background-color: transparent;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+label {
+  font-weight: bold;
+  
+  background-color: transparent;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #B1A6A4;
+  border-radius: 0.5rem;
+  
+
+}
+
+.form-control{
+  background-color: #F1ECEC;
+
+}
+
+textarea {
+  height: 150px;
+  background-color: transparent;
+}
+
+button {
+    width: 20%;
+  background-color: #007bff;
+  color: white;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-left: 40%;
+  
+}
+
+.query{
+    text-align: center;
+    color:rgb(133, 79, 9);
+}
+
+.queryhr{
+    width: 50%;
+}
+
+.starr{
+    color: rgb(237, 94, 94);
+}
+
+
+

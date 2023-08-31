@@ -20,6 +20,7 @@ body{
 /* Header start */
 .second{
   text-align: center;
+  color: rgb(133, 79, 9);
 }
 .header{
   color: #4E3927;
@@ -218,7 +219,7 @@ body{
   width: 10px;
 }
 ::-webkit-scrollbar-track{
-  background:#B1A6A4;
+  background: #999999;
 }
 
 ::-webkit-scrollbar-thumb{
