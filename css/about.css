@@ -12,9 +12,183 @@ hr{
 
     /* Heading after navbar : Content heading  */
 
-    #content-heading{
+#content-heading{
         color: rgb(133, 79, 9);
         font-family: 'Times New Roman', Times, serif;
         text-align: center;
         
 }
+/* main content starting  */
+
+#first-content{
+    overflow: hidden;
+    position: relative;
+}
+.demo-bg {
+    opacity: 0.9;
+    position: absolute;
+    left: 0px;
+    top: -169px;
+    width: 100%;
+    height: auto;
+  }
+  .demo-content {
+    position: relative;
+  }
+/* #first-content:before {
+    content: ' '; */
+    /* display: block; */
+    /* position: absolute;
+    left: 0;
+    top: 0; */
+    /* width: 100%;
+    height: 100%; */
+    /* opacity: 0.6;
+    background-image: url('../images//about/aboutus.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  } */
+/*   
+.demo-bg {
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+  }
+  .demo-content {
+    position: relative;
+  } */
+
+ /* #first-content::before {
+    content: "";
+    background-image: url("../images/about/aboutus.jpg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 100%;
+    background-position: 50% 0;
+    z-index: -1;} */
+  
+
+/* #first-content { */
+    /* background-image: url("../images/about/aboutus.jpg"); */
+    /* position: absolute; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center;  */
+    /* background-size: cover; */
+    /* opacity: 7; */
+    /* z-index: -1; */
+ /* }  */
+
+#first-content p{
+    color: white;
+ } 
+
+.col-sm-8{
+    /* border-right: 2px solid rgb(255, 255, 255); */
+}
+
+.first-image{
+    border-left: 2px solid rgb(255, 255, 255);
+    /* margin-left: 3px; */
+}
+
+.cards{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 21px
+}
+
+.col-sm-4 img{
+    width: 69%;
+    height: 100%;
+}
+
+.col-sm-5{
+    border: 2px solid red;
+    /* margin: 2px; */
+}
+
+/* Cards  */
+.cards{
+    /* background-color: #e5e3e8; */
+}
+
+.button_slide {
+    color: #FFF;
+    border: 2px solid #4e3927;
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #494347;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+
+.button_slide h2{
+  color: #4e3927;
+  }
+
+  .slide_right:hover {
+    box-shadow: inset 400px 0 0 0 #b1a6a4;
+  }
+/* Basic profile   */
+#basicProfile{
+    width: 80%;
+    margin: auto;
+}
+
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border: 1px solid rgb(131, 83, 83); 
+}
+
+/* Cosultants profile  */
+body {
+    background: #eee;
+  }
+  
+  .name {
+    color: blue;
+  }
+  
+  .work {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .about span {
+    font-size: 13px;
+  }
+  
+  .v-profile {
+    color: blue;
+    cursor: pointer;
+  }
+  
+  .box {
+    -webkit-box-shadow: 13px 12px 5px -10px rgba(196,194,196,0.72);
+    -moz-box-shadow: 13px 12px 5px -10px rgba(196,194,196,0.72);
+    box-shadow: 13px 12px 5px -10px rgba(196,194,196,0.72);
+  }
+  
+  .col-md-4 {
+    margin-top: 10px;
+  }
+
+  .more {display: none;}
+
+  .mt-3{
+    margin-bottom: 30px;
+  }
